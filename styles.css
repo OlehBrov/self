@@ -1,0 +1,79 @@
+/* .social-links .link {
+    color: teal;
+}
+
+.social-links .link:hover,
+.social-links .link:focus {
+    color: orange;
+}
+
+.social-links .link:active {
+    color: red;
+}
+
+.whole-table {
+    /* background-color: grey; */
+    /* margin: 100px;
+    border-collapse: collapse;
+    border: 10px; */
+
+/* }
+.caption {
+    
+   
+}
+.table-caption {
+    font-style: bold;
+    font-size: large;
+    color: brown;
+    font-weight: 600;
+    }
+.tr-one {
+    background-color: aqua;
+}
+.table-head > th {
+    background-color: blue;
+    border: 10px bisque; */
+/* } */
+/* .th {
+    text-align: left;
+} */ 
+
+
+/* Using a sans serif font and increasing the size of the characters */
+table {
+    margin: 300px;
+    font-family: sans-serif;
+    font-size: 20px;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    border: 2px solid black;
+}
+/* Shift the heading text to the left, by default it is centered */
+table caption {
+    text-align: center;
+    font-weight: 800;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* We "collapse" the frames of adjacent cells */
+.table-head {
+    background-color: blue;
+    border: 8px black solid;
+}
+th {
+    text-align: left;
+    padding: 5px;
+}
+td {
+    text-align: right;
+    padding: 5px;
+}
+tbody th {
+    color: tomato;
+}
+td:hover {
+   background-color: brown;
+}
